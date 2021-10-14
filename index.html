@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/cardIco.png">
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
+    <title>Memory Game</title>
+</head>
+
+<body>
+    <div class="container-lx sizes row">
+        <div class="col-sm-9">
+            <img src="/img/cards.png" alt="logo" id="logo">
+            <h1> Memory Game </h1>     
+        </div> 
+        <div class="col-sm cMargin">
+            <h4 id="h" class="chrono">00</h4>
+            <h4 class="chrono">:</h4>
+            <h4 id="m" class="chrono">00</h4>
+            <h4 class="chrono">:</h4>
+            <h4 id="s" class="chrono">00</h4>
+        </div>
+    </div>
+
+    <div class="canva"></div>
+    <div class="backGameOver">
+        <div id="gameOver">
+            <h1 id="textGameOver">Game Over</h1>
+            <h2 id="timeOut">00:00:00</h2>
+            <h3 id="textFails"> Fails:</h3>
+            <button id="btnPlay">Play Again</button>
+        </div>
+    </div>
+
+    <div class="container-sm centers">
+        <div class="row" id="fila1"></div>
+    </div>
+
+    <div class="foots">
+        <p> Made by <a href="https://github.com/CarlosDanielEspinoza" target="_blank">Carlos Espinoza</a></p>
+    </div>
+    
+</body>
+
+</html>
