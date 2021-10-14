@@ -92,6 +92,7 @@ body{
     background-color: rgba(0, 0, 0,0);
     visibility: hidden;
     text-align: center;
+    z-index: 3;
 }
 
 .foots{
@@ -122,6 +123,7 @@ a:hover{
     height: 100%;
     background-color: rgba(220, 20, 60, 0.2);
     backdrop-filter: blur(5px);
+    z-index:3;
 }
 #gameOver{
     position: fixed;
